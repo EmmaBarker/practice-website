@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" name="viewport">
 		<title>Title</title>
-		<css here>
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<header>
+		<header class="jumbotron">
 			<h1>Page Title</h1>
 			<h3>Subtitle</h3>
 		</header><!--end header-->
-		<nav>
+		<nav class="navbar navbar-static-top">
 			<a href="pages/gallery.html">Gallery</a>
 			<a href="pages/features.html">Features</a>
 			<a href="https://en.wikipedia.org/wiki/Wikipedia:Books">Availability &amp; Bookings</a>
 		</nav> <!--end nav-->
-		<div>
-			<h2>Info</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div><!--end info div-->
-		<div class="picture" id="1">
-			<a href="pages/gallery.html">
-				<img src="images/kitten1.jpeg" alt="Image 1">
-			</a>
-		</div><!--end picture1 div-->
-		<div>
-			<h2>Features</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus, orci ac luctus tempus, ex orci maximus dui, eleifend vehicula sem tortor at leo.</p>
-			<a href="pages/features.html">See more</a>
-		</div><!--end features div-->
-		<div class="picture" id="2">
-		</div><!--end picture2 div-->
-		<div class="booking">
-			<h2>Availability &amp; Booking</h2>
-			<a href="https://en.wikipedia.org/wiki/Wikipedia:Books">Availability/ Make a booking</a>
-		</div><!--end booking div-->
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Info</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div><!--end info div-->
+			<div class="picture col-md-6" id="1">
+				<a href="pages/gallery.html">
+					<img src="images/kitten1.jpeg" alt="Image 1">
+				</a>
+			</div><!--end picture1 div-->
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Features</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus, orci ac luctus tempus, ex orci maximus dui, eleifend vehicula sem tortor at leo.</p>
+				<a href="pages/features.html">See more</a>
+			</div><!--end features div-->
+			<div class="picture col-md-6" id="2">
+			</div><!--end picture2 div-->
+			<div class="booking">
+				<h2>Availability &amp; Booking</h2>
+				<a href="https://en.wikipedia.org/wiki/Wikipedia:Books">Availability/ Make a booking</a>
+			</div><!--end booking div-->
+		</div>
 		<footer>
 			<!--nav content here-->
 		</footer>
